@@ -1,0 +1,285 @@
+{
+  "class_mapping": {
+    "roboflow_head_0": "no_helmet_1",
+    "roboflow_helmet_1": "helmet_0",
+    "roboflow_person_2": "excluded"
+  },
+  "source_audit": {
+    "shwd_train": {
+      "images_found": 5902,
+      "usable_images": 5902,
+      "label_files": 5902,
+      "raw_class_counts": {
+        "0": 6553,
+        "1": 91192
+      },
+      "mapped_class_counts": {
+        "helmet": 6553,
+        "no_helmet": 91192
+      },
+      "issues": {}
+    },
+    "shwd_val": {
+      "images_found": 473,
+      "usable_images": 473,
+      "label_files": 473,
+      "raw_class_counts": {
+        "0": 685,
+        "1": 6119
+      },
+      "mapped_class_counts": {
+        "helmet": 685,
+        "no_helmet": 6119
+      },
+      "issues": {}
+    },
+    "shwd_test": {
+      "images_found": 1205,
+      "usable_images": 1205,
+      "label_files": 1205,
+      "raw_class_counts": {
+        "0": 1793,
+        "1": 14203
+      },
+      "mapped_class_counts": {
+        "helmet": 1793,
+        "no_helmet": 14203
+      },
+      "issues": {}
+    },
+    "roboflow_train": {
+      "images_found": 4916,
+      "usable_images": 4916,
+      "label_files": 4916,
+      "raw_class_counts": {
+        "0": 4612,
+        "1": 13919,
+        "2": 450
+      },
+      "mapped_class_counts": {
+        "helmet": 13919,
+        "no_helmet": 4612
+      },
+      "issues": {
+        "excluded_person_annotations": 450
+      }
+    },
+    "roboflow_valid": {
+      "images_found": 1413,
+      "usable_images": 1413,
+      "label_files": 1413,
+      "raw_class_counts": {
+        "0": 1339,
+        "1": 3913,
+        "2": 101
+      },
+      "mapped_class_counts": {
+        "helmet": 3913,
+        "no_helmet": 1339
+      },
+      "issues": {
+        "excluded_person_annotations": 101
+      }
+    },
+    "roboflow_test": {
+      "images_found": 706,
+      "usable_images": 706,
+      "label_files": 706,
+      "raw_class_counts": {
+        "0": 726,
+        "1": 1917,
+        "2": 64
+      },
+      "mapped_class_counts": {
+        "helmet": 1917,
+        "no_helmet": 726
+      },
+      "issues": {
+        "converted_polygon_annotations": 2,
+        "excluded_person_annotations": 64
+      }
+    }
+  },
+  "output_images": {
+    "test_shwd": 1205,
+    "test_roboflow": 706,
+    "val": 1886,
+    "train": 10818
+  },
+  "output_objects": {
+    "test_shwd": {
+      "helmet": 1793,
+      "no_helmet": 14203
+    },
+    "test_roboflow": {
+      "helmet": 1917,
+      "no_helmet": 726
+    },
+    "val": {
+      "helmet": 4598,
+      "no_helmet": 7458
+    },
+    "train": {
+      "helmet": 20472,
+      "no_helmet": 95804
+    }
+  },
+  "dropped_for_leakage": 0,
+  "dropped_reasons": {},
+  "post_filter_exact_leakage": {
+    "train_val_exact": 0,
+    "train_test_shwd_exact": 0,
+    "val_test_shwd_exact": 0
+  },
+  "source_exact_duplicate_groups": 37,
+  "source_exact_duplicate_examples": [
+    [
+      "shwd:train:000245",
+      "shwd:train:001368"
+    ],
+    [
+      "shwd:train:PartB_00046",
+      "shwd:train:PartB_00982"
+    ],
+    [
+      "shwd:train:PartB_00062",
+      "shwd:train:PartB_00983"
+    ],
+    [
+      "shwd:train:PartB_00317",
+      "shwd:train:PartB_02135"
+    ],
+    [
+      "shwd:train:PartB_00350",
+      "shwd:train:PartB_01856"
+    ],
+    [
+      "shwd:train:PartB_00804",
+      "shwd:train:PartB_01909"
+    ],
+    [
+      "shwd:train:PartB_00934",
+      "shwd:train:PartB_02219"
+    ],
+    [
+      "shwd:train:PartB_01003",
+      "shwd:train:PartB_01300"
+    ],
+    [
+      "shwd:train:PartB_01021",
+      "shwd:train:PartB_01815"
+    ],
+    [
+      "shwd:train:PartB_01111",
+      "shwd:train:PartB_01914"
+    ],
+    [
+      "shwd:train:PartB_01945",
+      "shwd:train:PartB_02240"
+    ],
+    [
+      "shwd:train:PartB_02001",
+      "shwd:train:PartB_02132"
+    ],
+    [
+      "shwd:train:part2_000080",
+      "shwd:train:part2_000261"
+    ],
+    [
+      "shwd:train:part2_000111",
+      "shwd:train:part2_000273"
+    ],
+    [
+      "shwd:train:part2_000146",
+      "shwd:train:part2_000615"
+    ],
+    [
+      "shwd:train:part2_000147",
+      "shwd:train:part2_002187"
+    ],
+    [
+      "shwd:train:part2_000166",
+      "shwd:train:part2_001038"
+    ],
+    [
+      "shwd:train:part2_000250",
+      "shwd:train:part2_000855"
+    ],
+    [
+      "shwd:train:part2_000311",
+      "shwd:train:part2_000506"
+    ],
+    [
+      "shwd:train:part2_000312",
+      "shwd:train:part2_000360"
+    ],
+    [
+      "shwd:train:part2_000377",
+      "shwd:train:part2_000406"
+    ],
+    [
+      "shwd:train:part2_000677",
+      "shwd:train:part2_000768"
+    ],
+    [
+      "shwd:train:part2_000864",
+      "shwd:train:part2_001427"
+    ],
+    [
+      "shwd:train:part2_000910",
+      "shwd:train:part2_001028"
+    ],
+    [
+      "shwd:train:part2_000927",
+      "shwd:train:part2_001069"
+    ],
+    [
+      "shwd:train:part2_000959",
+      "shwd:train:part2_001068"
+    ],
+    [
+      "shwd:train:part2_001189",
+      "shwd:train:part2_001390"
+    ],
+    [
+      "shwd:train:part2_001323",
+      "shwd:train:part2_001638"
+    ],
+    [
+      "shwd:train:part2_001386",
+      "shwd:train:part2_001836"
+    ],
+    [
+      "shwd:train:part2_001438",
+      "shwd:train:part2_001462"
+    ],
+    [
+      "shwd:train:part2_001568",
+      "shwd:train:part2_001601"
+    ],
+    [
+      "shwd:train:part2_001726",
+      "shwd:train:part2_001976"
+    ],
+    [
+      "shwd:train:part2_002063",
+      "shwd:train:part2_002088"
+    ],
+    [
+      "shwd:train:part2_002299",
+      "shwd:train:part2_002305"
+    ],
+    [
+      "shwd:test:PartB_00933",
+      "shwd:test:PartB_02316"
+    ],
+    [
+      "shwd:test:part2_000275",
+      "shwd:test:part2_002031"
+    ],
+    [
+      "shwd:test:part2_001283",
+      "shwd:test:part2_001326"
+    ]
+  ]
+}

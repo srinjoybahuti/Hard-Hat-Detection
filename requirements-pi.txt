@@ -1,0 +1,2 @@
+# Raspberry Pi 5, 64-bit OS, CPU inference. No NVIDIA/CUDA dependencies.
+ultralytics==8.4.174

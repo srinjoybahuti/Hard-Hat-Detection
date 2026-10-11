@@ -1,0 +1,23 @@
+{
+  "base_checkpoint": "/home/srinjoy/dataset_hel_no_yes/shwd_yolov8s/runs/train/weights/best.pt",
+  "base_checkpoint_sha256": "5951b3f83f407b7b9d0f4cfcbea51e0f50f44e15f5b7506c3ac47c2112f3c75d",
+  "data": "/home/srinjoy/dataset_hel_no_yes/shwd_yolov8s_rf_finetune_20261010/data.yaml",
+  "epochs": 100,
+  "patience": 15,
+  "imgsz": 800,
+  "batch": 4,
+  "device": 0,
+  "workers": 4,
+  "amp": true,
+  "cache": false,
+  "save": true,
+  "save_period": 5,
+  "seed": 42,
+  "deterministic": true,
+  "close_mosaic": 10,
+  "project": "/home/srinjoy/dataset_hel_no_yes/shwd_yolov8s_rf_finetune_20261010/runs",
+  "name": "finetune",
+  "exist_ok": false,
+  "plots": true,
+  "verbose": true
+}
